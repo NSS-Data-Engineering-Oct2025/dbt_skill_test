@@ -1,0 +1,12 @@
+
+target/
+dbt_packages/
+logs/
+*.dbt_packages
+*.ducks
+*.log
+*dev.duckdb
+*.prod.duckdb
+*.temp.duckdb
+*.backup.duckdb
+*.sqlite3

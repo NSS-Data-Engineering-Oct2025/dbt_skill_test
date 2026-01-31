@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: external
+    tables:
+      - name: student
+        description: "A table created from a local CSV file using an external location."
+    meta:
+        external_location: "C:\\Users\\khare\\DE_Oct2025\\dbt_skill_test\\data\\students.csv"

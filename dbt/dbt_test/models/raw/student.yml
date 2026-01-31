@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: raw
+    columns:
+      - name: student_id
+        tests:
+          - not_null
+      - name: major
+        tests:
+          - not_null
